@@ -1,8 +1,8 @@
 const form = document.getElementById('form');
 const cstring = document.getElementById('cstring');
-const countBtn = document.getElementById('count');
-const resetBtn = document.getElementById('clear');
-const charCount = document.getElementById('charcount');
+const countbtn = document.getElementById('count');
+const resetbtn = document.getElementById('reset');
+const charcount = document.querySelector('.charcount');
 
 function countChars(input) {
 	return input.value.length;
@@ -10,13 +10,11 @@ function countChars(input) {
 
 function resetPg() {
 	form.reset();
-	charCount.classList.remove('active');
 }
 
-countBtn.addEventListener('click', function (e) {
+countbtn.addEventListener('click', function (e) {
 	e.preventDefault();
-	charCount.classList.add('active');
-	charCount.innerHTML = countChars(cstring);
+	charcount.innerHTML = countChars(cstring);
 });
 
-resetBtn.addEventListener('click', resetPg());
+resetbtn.addEventListener('click', resetPg());

@@ -9,23 +9,16 @@
 
 .container {
 	background-color: var(--casis-green);
-	/* border-radius: 5px; */
+	border-radius: 5px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 	width: 400px;
-}
-
-.charcount {
-	color: var(--casis-green);
-}
-
-.charcount.active {
-	color: #111;
 }
 
 input {
 	margin-bottom: 10px;
 }
-h2 {
+
+h3 {
 	margin: 10px 0 20px;
 	font-weight: bold;
 }
