@@ -9,11 +9,12 @@
 
 .container {
 	background-color: var(--casis-green);
-	/* border-radius: 5px; */
+	border-radius: 5px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 	width: 400px;
 }
 
+<<<<<<< HEAD
 #title {
 	font-weight: bold;
 }
@@ -26,10 +27,13 @@
 	color: #111;
 }
 
+=======
+>>>>>>> a372af765d92612953337127dcfe524ff95c7c42
 input {
 	margin-bottom: 10px;
 }
-h2 {
+
+h3 {
 	margin: 10px 0 20px;
 	font-weight: bold;
 }
