@@ -14,6 +14,7 @@ function resetPg() {
 
 countbtn.addEventListener('click', function (e) {
 	e.preventDefault();
+	charcount.classList.add('active');
 	charcount.innerHTML = countChars(cstring);
 });
 
