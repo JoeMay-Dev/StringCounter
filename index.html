@@ -10,11 +10,13 @@
 
 <body>
   <div class="container">
-    <p id="title">How Many Characters?</p>
+    <label for="cstring">
+      <p id="title">How Many Characters?</p>
+    </label>
     <form id="form" autocomplete="off">
       <input type="text" id="cstring" name="cstring" placeholder="Paste Here">
-      <button id="count">Count</button>
-      <button id="clear">Reset</button>
+      <button type="button" id="count">Count</button>
+      <button id="reset">Reset</button>
       <p>
       <div id="charcount" class="charcount">0</div>
       </p>
