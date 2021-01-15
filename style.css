@@ -8,18 +8,28 @@
 }
 
 .container {
-	background-color: var(--casis-green);
+	/* background-color: var(--casis-green); */
+	background-image: url('img/background.gif');
+	background-repeat: repeat-x;
 	border-radius: 5px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 	width: 400px;
 }
 
 #title {
+	background-color: var(--casis-green);
 	font-weight: bold;
+	position: relative;
+	bottom: 2px;
+}
+
+#form {
+	background-color: #fff;
+	padding-top: 10px;
 }
 
 .charcount {
-	color: var(--casis-green);
+	color: #fff;
 }
 
 .charcount.active {
