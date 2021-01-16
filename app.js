@@ -1,4 +1,3 @@
-const form = document.getElementById('form');
 const cstring = document.getElementById('cstring');
 const countbtn = document.getElementById('count');
 const resetbtn = document.getElementById('reset');
