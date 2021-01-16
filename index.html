@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Character Counter</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Character Counter</title>
-</head>
-
-<body>
-  <div class="container">
-    <label for="cstring">
-      <p id="title">How Many Characters?</p>
-    </label>
-    <form id="form" autocomplete="off">
-      <input type="text" id="cstring" placeholder="Paste Here">
-      <button type="button" id="count">Count</button>
-      <button id="reset">Reset</button>
-      <p>
-      <div id="charcount" class="charcount">0</div>
-      </p>
-    </form>
-  </div>
-  <script src="app.js"></script>
-</body>
-
+	<body>
+		<div class="container">
+			<label for="cstring">
+				<p id="title">How Many Characters?</p>
+			</label>
+			<form id="form" autocomplete="off">
+				<input type="text" id="cstring" placeholder="Paste Here" />
+				<button type="button" id="count">Count</button>
+				<button id="reset">Reset</button>
+				<p></p>
+			</form>
+		</div>
+		<div id="charcount" class="charcount">0</div>
+		<script src="app.js"></script>
+	</body>
 </html>
