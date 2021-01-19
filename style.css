@@ -50,10 +50,6 @@ input[type='text'] {
 	border-radius: 5px;
 }
 
-input[type='text'] {
-	width: 65%;
-}
-
 h3 {
 	margin: 10px 0 20px;
 	font-weight: bold;
@@ -76,12 +72,9 @@ button {
 }
 
 button:hover {
-	opacity: 0.55;
-	background-color: #00ffff;
+	background-color: rgba(0, 255, 255, 0.55);
 }
 
 button:active {
-	opacity: 1;
-	color: #fff;
-	background-color: #424242;
+	background-color: rgba(128, 128, 128, 1);
 }
