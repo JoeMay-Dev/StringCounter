@@ -39,6 +39,7 @@
 .charcount.active {
 	color: #000;
 	font-weight: bold;
+	transition: color 0.5s;
 }
 
 input {
