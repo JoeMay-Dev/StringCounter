@@ -7,14 +7,10 @@ function countChars(input) {
 	return input.value.length;
 }
 
-function resetPg() {
-	form.reset();
-}
-
 countbtn.addEventListener('click', function (e) {
 	e.preventDefault();
 	charcount.classList.add('active');
 	charcount.innerHTML = countChars(cstring);
 });
 
-resetbtn.addEventListener('click', resetPg());
+resetbtn.addEventListener('click', form.reset());
