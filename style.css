@@ -1,12 +1,11 @@
-/* :root {
-	--casis-green: #c3d69b; 
-} */
+:root {
+	--casis-green: #c3d69b;
+}
 
 * {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
-	/* background-color: var(--casis-green); */
-	background-color: #c3d69b;
+	background-color: var(--casis-green, #c3d69b);
 }
 
 .container {
@@ -17,8 +16,7 @@
 }
 
 #title {
-	/* background-color: var(--casis-green); */
-	background-color: #c3d69b;
+	background-color: var(--casis-green, #c3d69b);
 	font-weight: bold;
 	position: relative;
 	bottom: 2px;
@@ -34,8 +32,7 @@
 }
 
 .charcount {
-	/* color: var(--casis-green); */
-	color: #c3d69b;
+	color: var(--casis-green, #c3d69b);
 	margin: 25px;
 }
 
