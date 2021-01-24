@@ -1,7 +1,6 @@
 * {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
-	background-color: var(--casis-green, #c3d69b);
 }
 
 .container {
@@ -12,7 +11,6 @@
 }
 
 #title {
-	background-color: #c3d69b;
 	font-weight: bold;
 	position: relative;
 	bottom: 2px;
@@ -28,14 +26,13 @@
 }
 
 .charcount {
-	color: #c3d69b;
+	visibility: hidden;
 	margin: 25px;
+	font-weight: bold;
 }
 
 .charcount.active {
-	color: #000;
-	font-weight: bold;
-	transition: color 0.2s;
+	visibility: visible;
 }
 
 input {
@@ -53,11 +50,12 @@ h3 {
 }
 
 body {
+	background-image: linear-gradient(180deg, #c3d69b, #fff);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 105vh;
+	height: 100vh;
 	overflow: hidden;
 	margin: 0;
 	text-align: center;
